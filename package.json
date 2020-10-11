@@ -1,7 +1,7 @@
 {
-  "name": "spherical-game-of-life",
+  "name": "game-of-life-on-spherised-cube",
   "version": "1.0.0",
-  "description": "Wrote this when i learnt about James Conway's passing in April 2020.",
+  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
