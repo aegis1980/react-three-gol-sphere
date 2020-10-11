@@ -32,9 +32,9 @@ const Slider = ({ speed, onSpeedChange }) => {
   return (
     <input
       type="range"
-      min="50"
-      max="5000"
-      step="50"
+      min="1"
+      max="200"
+      step="10"
       value={speed}
       onChange={handleChange}
     />
@@ -46,7 +46,7 @@ class App extends Component {
     boardStatus: newBoardStatus(),
     generation: 0,
     isGameRunning: false,
-    speed: 500
+    speed: 100
   };
 
   runStopButton = () => {
